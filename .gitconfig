@@ -1,0 +1,12 @@
+[user]
+	email = nreinhold24@gmail.com
+	name = nreinhol
+
+[alias]
+	st = status
+	ch = checkout
+	b = branch
+	co = commit
+	com = commit -m
+	ll = log --oneline --abbrev-commit -20
+	aa = add .
