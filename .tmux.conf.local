@@ -64,15 +64,15 @@ tmux_conf_theme_pane_border_style=thin
 
 # pane borders colours:
 tmux_conf_theme_pane_border='#444444'                   # gray
-tmux_conf_theme_pane_active_border='#45f69a'            # light blue
+tmux_conf_theme_pane_active_border='#c17d11'            # orange
 
 # pane indicator colours
-tmux_conf_theme_pane_indicator='#45f69a'                # light blue
-tmux_conf_theme_pane_active_indicator='#45f69a'         # light blue
+tmux_conf_theme_pane_indicator='#c17d11'                # orange
+tmux_conf_theme_pane_active_indicator='#c17d11'         # orange
 
 # status line style
 tmux_conf_theme_message_fg='#000000'                    # black
-tmux_conf_theme_message_bg='#cbaaf5'                    # green
+tmux_conf_theme_message_bg='#4e9a06'                    # forest_green
 tmux_conf_theme_message_attr='bold'
 
 # status line command style (<prefix> : Escape)
@@ -82,7 +82,7 @@ tmux_conf_theme_message_command_attr='bold'
 
 # window modes style
 tmux_conf_theme_mode_fg='#000000'                       # black
-tmux_conf_theme_mode_bg='#45f69a'                       # green
+tmux_conf_theme_mode_bg='#c17d11'                       # orange
 tmux_conf_theme_mode_attr='bold'
 
 # status line style
@@ -124,7 +124,7 @@ tmux_conf_theme_window_status_format='#I #W'
 #     - #{username}
 #     - #{username_ssh}
 tmux_conf_theme_window_status_current_fg='#000000'      # black
-tmux_conf_theme_window_status_current_bg='#45f69a'      # light green
+tmux_conf_theme_window_status_current_bg='#c17d11'      # orange
 tmux_conf_theme_window_status_current_attr='none'
 # tmux_conf_theme_window_status_current_format='#I #W'
 tmux_conf_theme_window_status_current_format='#{circled_window_index} #W'
@@ -141,7 +141,7 @@ tmux_conf_theme_window_status_bell_bg='default'
 tmux_conf_theme_window_status_bell_attr='blink,bold'
 
 # window last status style
-tmux_conf_theme_window_status_last_fg='#45f69a'         # light green
+tmux_conf_theme_window_status_last_fg='#c17d11'         # orange
 tmux_conf_theme_window_status_last_bg='default'
 tmux_conf_theme_window_status_last_attr='none'
 
@@ -183,12 +183,12 @@ tmux_conf_theme_status_right=' #{prefix}#{pairing}#{synchronized} #{?battery_sta
 
 # status left style
 tmux_conf_theme_status_left_fg='#000000,#000000,#e4e4e4'  # black, black, white
-tmux_conf_theme_status_left_bg='#cbaaf5,#45f69a,#cbaaf5'  # purple, green, purple
+tmux_conf_theme_status_left_bg='#4e9a06,#c17d11,#c17d11'  # forest_green, orange, orange
 tmux_conf_theme_status_left_attr='none,none,none'
 
 # status right style
-tmux_conf_theme_status_right_fg='#45f69a,#000000,#000000' # green, black, black
-tmux_conf_theme_status_right_bg='#080808,#45f69a,#cbaaf5' # dark gray, green, purple
+tmux_conf_theme_status_right_fg='#4e9a06,#000000,#000000' # forest_green, black, black
+tmux_conf_theme_status_right_bg='#080808,#c17d11,#4e9a06' # dark gray, orange, forest_green
 tmux_conf_theme_status_right_attr='none,none,none'
 
 # pairing indicator
