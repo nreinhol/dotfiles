@@ -18,11 +18,13 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-
+POWERLEVEL9K_dir_FOREGROUND='blue'
+POWERLEVEL9K_dir_BACKGROUND='magenta'
 
 # Customise the Powerlevel9k prompts
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh dir vcs newline status)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
 # Set list of themes to pick from when loading at random
@@ -111,3 +113,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
